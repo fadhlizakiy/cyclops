@@ -8,11 +8,11 @@ Web    : https://fadhlizakiy.com/
 
 # Requirements
 1. Installing Python
-2. Installing Flask
-3. Installing Scapy 
-4. Installing Flask-CORS
+2. Installing Flask `pip install flask`
+3. Installing Scapy `pip install scapy`
+4. Installing Flask-CORS `pip install flask-cors`
 
 # Usage
 1. Run Cyclops by
-python cyclops.py
+`python cyclops.py`
 2. Visit https://cyclops.fadhlizakiy.com/
