@@ -11,3 +11,8 @@ Web    : https://fadhlizakiy.com/
 2. Installing Flask
 3. Installing Scapy 
 4. Installing Flask-CORS
+
+# Usage
+1. Run Cyclops by
+python cyclops.py
+2. Visit https://cyclops.fadhlizakiy.com/
