@@ -71,7 +71,10 @@ def getScan():
     # map all clients
     clients = []
     for sent, received in result:
-        clients.append({'ip': received.psrc, 'mac': received.hwsrc})
+        manuf = scapyConf.manufdb._get_short_manuf(received.hwsrc)
+        manuf = "unknown" if manuf == received.src else manuf
+
+        clients.append({'ip': received.psrc, 'mac': received.hwsrc, 'manuf': manuf})
 
     return jsonify(clients)
 
